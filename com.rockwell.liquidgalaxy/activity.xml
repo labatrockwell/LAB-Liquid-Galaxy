@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<activity builder="java">
+    <name>Liquid Galaxy</name>
+    <description>
+An activity to setup and launch a node in a Liquid Galaxy installation.
+    </description>
+    <version>1.1.0</version>
+    <identifyingName>com.rockwell.liquidgalaxy</identifyingName>
+</activity>
