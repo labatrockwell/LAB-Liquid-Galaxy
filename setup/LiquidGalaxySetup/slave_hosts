@@ -1,0 +1,26 @@
+
+st Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost 
+fe80::1%lo0	localhost
+#10.1.2.13	googleserver.local
+#10.1.2.13	conference.googleserver.local
+#10.1.2.13	proxy.googleserver.local
+
+#10.1.2.167	labecsserver
+#10.1.2.167	conference.labecsserver
+#10.1.2.167	proxy.labecsserver
+
+127.0.0.1	kh.google.com
+127.0.0.1	www.endpoint.com
+127.0.0.1	khmdb.google.com
+127.0.0.1	mw1.google.com
+127.0.0.1	mw2.google.com
+127.0.0.1	cbk0.google.com
+10.1.3.95	labecsserver conference.labecsserver proxy.labecsserver
+

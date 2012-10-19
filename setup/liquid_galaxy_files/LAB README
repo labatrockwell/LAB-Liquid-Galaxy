@@ -1,0 +1,12 @@
+install squid-cache using squidman 3.1 (it will be in /usr/local/squid)
+replace /usr/local/squid/etc/squid.conf and cachemgr.conf with the ones in this directory
+make sure the hostname of the machine maches the actual hostname
+	if not, set visible-hostname to the correct hostname in squid.conf
+run: sudo chmod 777 /usr/local/squid/var/cache
+put hosts.squid to /etc/hosts.squid
+add the specs in hosts to /etc/hosts
+run "sudo /usr/local/squid/sbin/squid -z" to set up swap directories
+run "sudo /usr/local/squid/sbin/squid -NCd1" to enable debugging output and make sure "Ready to serve requests" shows up.
+
+squid should work (-NCd1 is not necessary for normal operation)
+after installing squid you can run setup.sh

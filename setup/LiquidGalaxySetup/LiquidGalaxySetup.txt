@@ -1,0 +1,13 @@
+Setting up liquid galaxy with a Mac as the master computer.
+1) set up the basic version using the quickstart guide
+2) get the php-interface directory from google code
+3) set up a web server on the master computer and have it serve php-interface
+4) comment out the two "exec('/lg/chown_tmp_query');" lines in php-interface/change.php 
+5) add "ViewSync/queryFile = /tmp/query_php.txt" to drivers.ini
+6) install the software for the 3d mouse
+7) restart
+8) open a browser on a separate computer
+9) navigate to the php-interface/index.php page on the master computer.
+
+notes:
+if you can figure out how to use the website on one screen and have the 3d mouse control Google Earth simultaneously (the website grabs focus when you click a link, and the 3d mouse only interacts with the program that has focus) then you can run the webpage on the master computer as well.
